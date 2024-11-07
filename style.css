@@ -1,0 +1,243 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #242424;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header .contact-btn {
+    background-color: #6a0dad;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    color: #fff;
+    background-color: #333;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.hero-buttons button {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #ddd;
+}
+
+.hero-stats .stat {
+    background-color: #444;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+.hero-stats .stat span {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    color: #6a0dad;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    color: #ddd;
+}
+
+.feature-card img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1em;
+}
+
+/* Featured Properties Section */
+.featured-properties {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.featured-properties h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.featured-properties p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: #ddd;
+}
+
+.property-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    color: #ddd;
+    width: 250px;
+    display: inline-block;
+}
+
+.property-card h3 {
+    margin: 10px 0;
+}
+
+.property-card p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.property-card button {
+    padding: 8px 16px;
+    background-color: #6a0dad;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* FAQ Section */
+.faq {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.faq h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.faq p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: #ddd;
+}
+
+.faq-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    color: #ddd;
+    width: 250px;
+    display: inline-block;
+}
+
+.faq-card h3 {
+    margin: 10px 0;
+}
+
+.faq-card p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.faq-card button {
+    padding: 8px 16px;
+    background-color: #6a0dad;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: #ddd;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
